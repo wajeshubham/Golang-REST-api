@@ -94,11 +94,11 @@ func main() {
 
 	// Dummy data of books as we don't have a database (slice)
 	books = append(books, Book{ID: "124134", Serialno: "635622", Title: "Book one",
-		Author: &Author{Firstname: "Shubham", Lastname: "Waje"}})
+		Author: &Author{Firstname: "John", Lastname: "Doe"}})
 	books = append(books, Book{ID: "265637", Serialno: "767543", Title: "Book two",
-		Author: &Author{Firstname: "Yash", Lastname: "Vyas"}})
+		Author: &Author{Firstname: "Jane", Lastname: "Doe"}})
 	books = append(books, Book{ID: "332415", Serialno: "535625", Title: "Book three",
-		Author: &Author{Firstname: "Abhay", Lastname: "Dubey"}})
+		Author: &Author{Firstname: "Marshal", Lastname: "Mathers"}})
 
 	// Handel the routes
 	r.HandleFunc("/api/books", getBooks).Methods("GET")

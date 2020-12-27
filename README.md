@@ -14,6 +14,8 @@ go get -u github.com/gorilla/mux
 ```bash
 go build
 ./restapi
+# After running go build, new .exe file will be created in your project directory
+# to run the server run ./<.exe file name>
 ```
 
 ## Endpoints
